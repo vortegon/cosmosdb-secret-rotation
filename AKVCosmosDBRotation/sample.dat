@@ -1,17 +1,17 @@
 {
-  "subject": "jbCosmosDBKey",
+  "subject": "CosmosDBKey",
   "eventTime": "2024-06-18T17:06:40.4342438Z",
   "data": {
     "EXP": 1718816442,
-    "ObjectName": "jbCosmosDBKey",
+    "ObjectName": "CosmosDBKey",
     "NBF": null,
-    "Id": "https://jb-kv-vo.vault.azure.net/secrets/jbCosmosDBKey/27c0d7a7b99a4cea8aa98829193b1aad",
+    "Id": "https://kv-vo.vault.azure.net/secrets/CosmosDBKey/27c0d7a7b99a4cea8aa98829193b1aad",
     "ObjectType": "Secret",
-    "VaultName": "jb-kv-vo",
+    "VaultName": "kv-vo",
     "Version": "27c0d7a7b99a4cea8aa98829193b1aad"
   },
   "id": "b3a1bd17-ef2e-482d-b6f1-3f6d2d1e91b2",
-  "topic": "/subscriptions/8cfbd600-1193-40e4-8a27-b4cf086c8675/resourceGroups/jb-rg-vo-dev/providers/Microsoft.KeyVault/vaults/jb-kv-vo",
+  "topic": "/subscriptions/8cfbd600-1193-40e4-8a27-b4cf086c8675/resourceGroups/rg-vo-dev/providers/Microsoft.KeyVault/vaults/kv-vo",
   "eventType": "Microsoft.KeyVault.SecretNearExpiry",
   "dataVersion": "1",
   "metadataVersion": "1"
