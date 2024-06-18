@@ -152,7 +152,22 @@
                     ],
                     "powerShellVersion": "7.2"
                 }
-            }
+            },
+            "resources": [
+                {
+                    "type": "sourcecontrols",
+                    "apiVersion": "2018-11-01",
+                    "name": "web",
+                    "dependsOn": [
+                        "[resourceId('Microsoft.Web/Sites', parameters('functionAppName'))]"
+                    ],
+                    "properties": {
+                        "RepoUrl": "https://github.com/vortegon/cosmosdb-secret-rotation.git",
+                        "branch": "main",
+                        "IsManualIntegration": true
+                    }
+                }
+            ]
         },
         {
             "type": "microsoft.insights/components",
