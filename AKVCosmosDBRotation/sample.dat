@@ -1,20 +1,18 @@
 {
-  "topic": "/subscriptions/5b4b650e-28b9-4790-b3ab-ddbd88d727c4/resourcegroups/test/providers/Microsoft.EventHub/namespaces/test",
-  "subject": "eventhubs/test",
-  "eventType": "captureFileCreated",
-  "eventTime": "2017-07-14T23:10:27.7689666Z",
-  "id": "7b11c4ce-1c34-4416-848b-1730e766f126",
+  "subject": "jbCosmosDBKey",
+  "eventTime": "2024-06-18T17:06:40.4342438Z",
   "data": {
-    "fileUrl": "https://test.blob.core.windows.net/debugging/testblob.txt",
-    "fileType": "AzureBlockBlob",
-    "partitionId": "1",
-    "sizeInBytes": 0,
-    "eventCount": 0,
-    "firstSequenceNumber": -1,
-    "lastSequenceNumber": -1,
-    "firstEnqueueTime": "0001-01-01T00:00:00",
-    "lastEnqueueTime": "0001-01-01T00:00:00"
+    "EXP": 1718816442,
+    "ObjectName": "jbCosmosDBKey",
+    "NBF": null,
+    "Id": "https://jb-kv-vo.vault.azure.net/secrets/jbCosmosDBKey/27c0d7a7b99a4cea8aa98829193b1aad",
+    "ObjectType": "Secret",
+    "VaultName": "jb-kv-vo",
+    "Version": "27c0d7a7b99a4cea8aa98829193b1aad"
   },
-  "dataVersion": "", 
-  "metadataVersion": "1" 
+  "id": "b3a1bd17-ef2e-482d-b6f1-3f6d2d1e91b2",
+  "topic": "/subscriptions/8cfbd600-1193-40e4-8a27-b4cf086c8675/resourceGroups/jb-rg-vo-dev/providers/Microsoft.KeyVault/vaults/jb-kv-vo",
+  "eventType": "Microsoft.KeyVault.SecretNearExpiry",
+  "dataVersion": "1",
+  "metadataVersion": "1"
 }

@@ -2,7 +2,7 @@
 
 <a name="Keyvault-Rotation-CosmosDB-PowerShell"></a>
 
-# Keyvault-Rotation-CosmosDB-PowerShell (2020-12-22)
+# Keyvault-Rotation-CosmosDB-PowerShell (2024-06)
 
 *Features*
 
